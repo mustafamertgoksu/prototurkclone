@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototurk | Yazılım ve Tasarım Dersleri</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <header class="header flex items-center justify-between h-16 px-4">
+        <div class="header-menu hidden">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="logo-division flex items-center">
+            <a href="#" class="logo text-2xl font-semibold text-teal-900 mx-2">./prototurk</a>
+            <a href="#" class="changelog opacity-50">v2.5.2</a>
+        </div>
+        <form action="search" action>
+            <input type="text" class="text-teal-900 bg-slate-50 px-4 py-2 w-96" placeholder="Ara" id="search-input" autocomplete="off">
+        </form>
+        <div class="user-box">
+            <div class="user-action">
+                <a href="" class="flex px-4">
+                    <span class="avatar mr-2">
+                            <img class="w-8 h-8 rounded-3xl" src="https://www.gravatar.com/avatar/a5dc814c15fdc756bfa4cb8c19299b65?s=80&d=mp&r=g" alt="">
+                     </span>
+                     <div class="user-name mr-2">
+                         @hvjyg
+                     </div>
+                    <i class="fa fa-caret-down mt-2 dropdown-icon"></i>
+                </a>
+                <div class="user-dropdown absolute top-16 right-2 rounded bg-slate-50 text-teal-900 px-8 py-2 w-52">
+                    <ul>
+                        <li class="hover:bg-white hover:opacity-100 rounded">
+                            <a href="#">Profil</a>
+                        </li>
+                        <li class="hover:bg-white hover:opacity-100 rounded">
+                            <a href="#">Profil Düzenle</a>
+                        </li>
+                        <li class="hover:bg-white hover:opacity-100 rounded">
+                            <a href="#">Takipçiler</a>
+                        </li>
+                        <li class="hover:bg-white hover:opacity-100 rounded">
+                            <a href="#">Takip edenler</a>
+                        </li>
+                        <li class="hover:bg-white hover:opacity-100 rounded">
+                            <a href="#">Sorular</a>
+                        </li>
+                        <li class="hover:bg-white hover:opacity-100 rounded">
+                            <a href="#">Cevaplar</a>
+                        </li>
+                        <li class="hover:bg-white hover:opacity-100 rounded">
+                            <a href="#">Bildirimler</a>
+                        </li>
+                        <li class="hover:bg-white hover:opacity-100 rounded">
+                            <a href="#">Çıkış Yap</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container flex">
+        <aside>
+            aside &nbsp;
+        </aside>
+        <main>
+            main
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
