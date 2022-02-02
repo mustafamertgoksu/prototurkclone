@@ -30,7 +30,7 @@
                      <div class="user-name mr-2">
                          @hvjyg
                      </div>
-                    <i class="fa fa-caret-down mt-2 dropdown-icon"></i>
+                    <i class="fa fa-caret-down  dropdown-icon text-xl"></i>
                 </a>
                 <div class="user-dropdown absolute top-16 right-2 rounded bg-slate-50 text-teal-900 px-8 py-2 w-52">
                     <ul>
@@ -63,12 +63,135 @@
             </div>
         </div>
     </header>
-    <div class="container flex">
-        <aside>
-            aside &nbsp;
+    <hr class="opacity-50" />
+    <div class="container flex h-full">
+        <aside class="w-64 h-full flex flex-col">
+            <div class="overflow-y-auto overflow-x-hidden">
+                <ul class="p-2">
+                    <li class="bg-gray-100 h-8 w-64 px-2">
+                        <a href="">Anasayfa</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">Akış</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">Keşfet</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">Makaleler</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">Soru & Cevap</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">Ders İstekleri</a>
+                    </li>
+                </ul>
+                <br>
+                <ul class="p-2">
+                    <li class="h-8 w-64 px-2">
+                        <a href="">HTML</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">CSS</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">Javascript</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">PHP</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">MySQL</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">Laravel</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">Python</a>
+                    </li>
+                    <li class="h-8 w-64 px-2">
+                        <a href="">Git</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dark-mode p-2">
+                <button class="dark-mode-btn bg-zinc-900 text-white h-8 w-56 px-2 rounded" type="button">Koyu Mod</button>
+            </div>
         </aside>
-        <main>
-            main
+        <main class="flex flex-col p-8">
+           <div class="mb-8">
+            <h1 class="text-teal-900 text-4xl font-bold mb-4">Kendine değer kat!</h1>
+            <p>İyi bir kariyer için, doğru bir başlangıç gerekir. Prototürk'de bir çok dil ve teknolojiye ait derslerle doğru bir başlangıç yapmaya hazırsın!</p>
+           </div>
+            <div class="flex overflow-x-auto mb-5 lg:grid grid-cols-10 gap-3 lg:gap-7 mt-2 ml-2">
+                <div class="col-span-5 lg:col-span-2">
+                    <a href="" class="group slider-item hover:!border-red-700">
+                        <span class="w-24 h-24 mb-4 border border-red-500 rounded-full grid place-items-center relative">
+                            <span
+                              class="absolute -top-2 -right-2 w-24 h-24 scale-90 bg-red-500 bg-opacity-10 rounded-full -z-1"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px"  class="fill-current text-red-700">  <path d="M0 0h24v24H0V0z" fill="none" />  <circle cx="4.5" cy="9.5" r="2.5" />  <circle cx="9" cy="5.5" r="2.5" />  <circle cx="15" cy="5.5" r="2.5" />  <circle cx="19.5" cy="9.5" r="2.5" />  <path    d="M17.34 14.86c-.87-1.02-1.6-1.89-2.48-2.91-.46-.54-1.05-1.08-1.75-1.32-.11-.04-.22-.07-.33-.09-.25-.04-.52-.04-.78-.04s-.53 0-.79.05c-.11.02-.22.05-.33.09-.7.24-1.28.78-1.75 1.32-.87 1.02-1.6 1.89-2.48 2.91-1.31 1.31-2.92 2.76-2.62 4.79.29 1.02 1.02 2.03 2.33 2.32.73.15 3.06-.44 5.54-.44h.18c2.48 0 4.81.58 5.54.44 1.31-.29 2.04-1.31 2.33-2.32.31-2.04-1.3-3.49-2.61-4.8z" /> </svg>
+                        </span>
+                          <span class="inline-flex h-10 items-center rounded px-5 text-white bg-red-500 group-hover:bg-red-800 transition-colors">HTML</span>
+                    </a>
+                </div>
+                <div class="col-span-5 lg:col-span-2">
+                 <a href="#"
+                    class="group slider-item hover:!border-blue-700">
+                    <span class="w-24 h-24 mb-4 border border-blue-500 rounded-full grid place-items-center relative">
+                      <span
+                        class="absolute -top-2 -right-2 w-24 h-24 scale-90 bg-blue-500 bg-opacity-10 rounded-full -z-1"></span>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" class="fill-current text-blue-700"> <path d="M0 0h24v24H0V0z" fill="none" /> <circle cx="4.5" cy="9.5" r="2.5" /> <circle cx="9" cy="5.5" r="2.5" /> <circle cx="15" cy="5.5" r="2.5" /> <circle cx="19.5" cy="9.5" r="2.5" /> <path   d="M17.34 14.86c-.87-1.02-1.6-1.89-2.48-2.91-.46-.54-1.05-1.08-1.75-1.32-.11-.04-.22-.07-.33-.09-.25-.04-.52-.04-.78-.04s-.53 0-.79.05c-.11.02-.22.05-.33.09-.7.24-1.28.78-1.75 1.32-.87 1.02-1.6 1.89-2.48 2.91-1.31 1.31-2.92 2.76-2.62 4.79.29 1.02 1.02 2.03 2.33 2.32.73.15 3.06-.44 5.54-.44h.18c2.48 0 4.81.58 5.54.44 1.31-.29 2.04-1.31 2.33-2.32.31-2.04-1.3-3.49-2.61-4.8z" /></svg>
+                    </span>
+                    <span class="inline-flex h-10 items-center rounded px-5 text-white bg-blue-500 group-hover:bg-blue-900 transition-colors">CSS</span>
+                  </a>
+                </div>
+                <div class="col-span-5 lg:col-span-2">
+                    <a href="#"
+                    class="group slider-item hover:!border-yellow-700">
+                    <span class="w-24 h-24 mb-4 border border-yellow-500 rounded-full grid place-items-center relative">
+                      <span
+                        class="absolute -top-2 -right-2 w-24 h-24 scale-90 bg-yellow-500 bg-opacity-10 rounded-full -z-1"></span>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" class="fill-current text-yellow-700"> <path d="M0 0h24v24H0V0z" fill="none" /> <circle cx="4.5" cy="9.5" r="2.5" /> <circle cx="9" cy="5.5" r="2.5" /> <circle cx="15" cy="5.5" r="2.5" /> <circle cx="19.5" cy="9.5" r="2.5" /> <path   d="M17.34 14.86c-.87-1.02-1.6-1.89-2.48-2.91-.46-.54-1.05-1.08-1.75-1.32-.11-.04-.22-.07-.33-.09-.25-.04-.52-.04-.78-.04s-.53 0-.79.05c-.11.02-.22.05-.33.09-.7.24-1.28.78-1.75 1.32-.87 1.02-1.6 1.89-2.48 2.91-1.31 1.31-2.92 2.76-2.62 4.79.29 1.02 1.02 2.03 2.33 2.32.73.15 3.06-.44 5.54-.44h.18c2.48 0 4.81.58 5.54.44 1.31-.29 2.04-1.31 2.33-2.32.31-2.04-1.3-3.49-2.61-4.8z" /></svg>
+                    </span>
+                    <span class="inline-flex h-10 items-center rounded px-5 text-white bg-yellow-500 group-hover:bg-yellow-900 transition-colors">Javascript</span>
+                  </a>
+                </div>
+                <div class="col-span-5 lg:col-span-2">
+                    <a href="#"
+                    class="group slider-item hover:!border-purple-700">
+                    <span class="w-24 h-24 mb-4 border border-purple-500 rounded-full grid place-items-center relative">
+                      <span
+                        class="absolute -top-2 -right-2 w-24 h-24 scale-90 bg-indigo-500 bg-opacity-10 rounded-full -z-1"></span>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" class="fill-current text-purple-700"> <path d="M0 0h24v24H0V0z" fill="none" /> <circle cx="4.5" cy="9.5" r="2.5" /> <circle cx="9" cy="5.5" r="2.5" /> <circle cx="15" cy="5.5" r="2.5" /> <circle cx="19.5" cy="9.5" r="2.5" /> <path   d="M17.34 14.86c-.87-1.02-1.6-1.89-2.48-2.91-.46-.54-1.05-1.08-1.75-1.32-.11-.04-.22-.07-.33-.09-.25-.04-.52-.04-.78-.04s-.53 0-.79.05c-.11.02-.22.05-.33.09-.7.24-1.28.78-1.75 1.32-.87 1.02-1.6 1.89-2.48 2.91-1.31 1.31-2.92 2.76-2.62 4.79.29 1.02 1.02 2.03 2.33 2.32.73.15 3.06-.44 5.54-.44h.18c2.48 0 4.81.58 5.54.44 1.31-.29 2.04-1.31 2.33-2.32.31-2.04-1.3-3.49-2.61-4.8z" /></svg>
+                    </span>
+                    <span class="inline-flex h-10 items-center rounded px-5 text-white bg-purple-500 group-hover:bg-purple-900 transition-colors">PHP</span>
+                  </a>
+                </div>
+                <div class="col-span-5 lg:col-span-2">
+             <a href="#"
+              class="group slider-item hover:!border-indigo-700">
+              <span class="w-24 h-24 mb-4 border border-indigo-500 rounded-full grid place-items-center relative">
+                <span
+                  class="absolute -top-2 -right-2 w-24 h-24 scale-90 bg-indigo-500 bg-opacity-10 rounded-full -z-1"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" class="fill-current text-indigo-700"> <path d="M0 0h24v24H0V0z" fill="none" /> <circle cx="4.5" cy="9.5" r="2.5" /> <circle cx="9" cy="5.5" r="2.5" /> <circle cx="15" cy="5.5" r="2.5" /> <circle cx="19.5" cy="9.5" r="2.5" /> <path   d="M17.34 14.86c-.87-1.02-1.6-1.89-2.48-2.91-.46-.54-1.05-1.08-1.75-1.32-.11-.04-.22-.07-.33-.09-.25-.04-.52-.04-.78-.04s-.53 0-.79.05c-.11.02-.22.05-.33.09-.7.24-1.28.78-1.75 1.32-.87 1.02-1.6 1.89-2.48 2.91-1.31 1.31-2.92 2.76-2.62 4.79.29 1.02 1.02 2.03 2.33 2.32.73.15 3.06-.44 5.54-.44h.18c2.48 0 4.81.58 5.54.44 1.31-.29 2.04-1.31 2.33-2.32.31-2.04-1.3-3.49-2.61-4.8z" /></svg>
+              </span>
+              <span class="inline-flex h-10 items-center rounded px-5 text-white bg-indigo-500 group-hover:bg-indigo-900 transition-colors">MySql</span>
+            </a>
+                </div>
+            </div>
+            <div class="bg-blue-500 flex mt-8 px-8 w-full h-80 py-8 rounded flex-col">
+                <div class="text">
+                    <p class="">
+                        <span class="text-white text-2xl">Twitter'da @prototurkcom hesabını takip etmeyi unutma!</span>
+                        <br>
+                        <span class="text-gray-100 text-xl">Hazırladığımız son videolardan anında haberdar olmak için twitter hesabımızı takip etmeyi unutma!</span>
+                    </p>
+                </div>
+                <div class="follow mt-8">
+                    <button class="bg-white rounded p-2 px-4">Takip et</button>
+                </div>
+               </div>
         </main>
     </div>
     <script src="script.js"></script>

@@ -2,17 +2,35 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    box-sizing: border-box;
 }
-
+.dark-mode-event{
+    filter: invert(0.9);
+}
 a{
     text-decoration: none;
 }
 body{
-    background-color:  #eff0f1;
+    background-color:  #ffffff;
 }
 header{
     background-color: #ffffff;
+}
+aside{
+    background-color: #fefeff;
+}
+aside ul li{
+    margin: 10px 0;
+    padding-top: 3px;
+    border-radius: 0.2rem;
+}
+aside ul li a{
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    color: #002745;
+}
+aside ul li:hover{
+    background-color: #f6f6fc;
 }
 .user-dropdown{
     visibility: hidden;
