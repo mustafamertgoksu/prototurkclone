@@ -4,10 +4,23 @@
     list-style: none;
 }
 .dark-mode-event{
+    transition: 0.5s all;
     filter: invert(0.9);
 }
-a{
-    text-decoration: none;
+.light-mode-event{
+    transition: 1s all;
+}
+.not{
+    filter: invert(1);
+}
+.not-p{
+    color: white;
+}
+.dark-mod-a {
+    color: black; /*  buraya black dedim çünkü dark mode olunca invert etcek ve beyaz olcak amacım da zaten beyaz olması  */
+}
+.dark-mode-h1{
+    filter: invert(0.7); /*  buraya black dedim çünkü dark mode olunca invert etcek ve beyaz olcak amacım da zaten beyaz olması  */
 }
 body{
     background-color:  #ffffff;
